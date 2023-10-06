@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:travel_app_ui_design/screens/welcome_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {

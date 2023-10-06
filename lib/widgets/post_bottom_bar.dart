@@ -93,6 +93,7 @@ class PostBottomBar extends StatelessWidget {
                     Expanded(
                       flex: 1,
                       child: Container(
+                        alignment: Alignment.center,
                         width: 120,
                         height: 90,
                         margin: EdgeInsets.only(right: 5),

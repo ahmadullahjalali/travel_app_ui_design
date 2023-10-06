@@ -62,7 +62,6 @@ class WelcomeScreen extends StatelessWidget {
                     );
                   },
                   child: Ink(
-                    // color: Colors.white,
                     padding: EdgeInsets.all(15),
                     decoration: BoxDecoration(
                       color: Colors.white,
@@ -71,11 +70,10 @@ class WelcomeScreen extends StatelessWidget {
                     child: Icon(
                       Icons.arrow_forward_ios,
                       color: Colors.red,
-                      size: 60,
-                      weight: (900),
+                      size: 20,
                     ),
                   ),
-                )
+                ),
               ],
             ),
           ),
